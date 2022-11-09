@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TICKETHACK</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div id="left">
+        <h1 id="title-logo">Tickethack</h1>
+      </div>
+      <div id="right">
+        <a href="./cart.html">Cart</a>
+        <a href="./booking.html">Bookings</a>
+      </div>
+    </div>
+    <!-- Main -->
+    <div id="main">
+      <h1 class="title">Explore the world effortlessly by train !</h1>
+      <p>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack</p>
+
+      <!-- Cards -->
+      <div id="cards">
+        <div id="search">
+          <div>
+            <input id="departure" type="text" placeholder="Departure" required />
+            <input id="arrival" type="text" placeholder="Arrival" required />
+            <br />
+            <br />
+            <br />
+            <input id="date" type="date" required />
+          </div>
+          <div>
+            <input id="submit-search-button" type="submit" value="Search" class="btn search" />
+          </div>
+        </div>
+
+        <div class="result result-base">
+          <div id="logo">
+            <img id="logo-img" src="./images/train.png" alt="" />
+          </div>
+          <h3 id="result-text">It's time to book your future trip.</h3>
+        </div>
+        <!-- <div class="result"></div> -->
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
